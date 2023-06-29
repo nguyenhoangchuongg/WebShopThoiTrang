@@ -1,20 +1,4 @@
-﻿--drop DATABASE [asm_java5]
---use master
 
--- select * from Products
-
--- delete Products
--- where Id = 1005  
--- CREATE DATABASE [asm_java5]
--- use [asm_java5]
--- GO
--- ALTER DATABASE [asm_java5] SET COMPATIBILITY_LEVEL = 140
--- GO
--- IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
--- begin
--- EXEC [asm_java5].[dbo].[sp_fulltext_database] @action = 'enable'
--- end
--- go
 
 create database asm_java51
 ALTER DATABASE [asm_java5] SET ANSI_NULL_DEFAULT OFF 
